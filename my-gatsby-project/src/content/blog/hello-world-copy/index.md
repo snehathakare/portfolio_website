@@ -1,8 +1,8 @@
 ---
-title: "Hello World"
-tags: ["Hello", "World", "First", "Post"]
+title: "OTT Platform Clone"
+tags: ["React.js", "Material UI", "Firebase"]
 description: "999"
-author: "John Doe"
+author: "Sneha Thakare"
 date: "2020-05-12"
 ---
 

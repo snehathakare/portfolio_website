@@ -37,15 +37,14 @@ export default ({ data }) => {
           </h1>
           <p>
             <i>
-              {occupation} by day,&nbsp;
-              {dark ? `Imperial enforcer by night` : `Rebel scum by night`}
+              {occupation}
             </i>
           </p>
         </Container>
         <hr className="my-3 w-25" />
         <div className="d-md-inline-flex icons-container">
           <a
-            href="https://www.github.com"
+            href="https://github.com/snehathakare"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -56,7 +55,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sneha-thakare-46750a53/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,7 +88,7 @@ export default ({ data }) => {
             />
           </a>
           <a
-            href="mailto:johndoe@gmail.com"
+            href="mailto:snhthakare@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
