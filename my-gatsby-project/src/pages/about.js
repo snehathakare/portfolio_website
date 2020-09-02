@@ -50,25 +50,12 @@ export default ({ data }) => {
           </p>
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
-            <a
-              href="https://www.dictionary.com/e/fictional-characters/padawan/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              padawan
-            </a>
-            &nbsp;
-            <b>{occupation}</b> discovering the ways of the code. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            <b>{occupation}</b> discovering the ways of the code. I am a Full Stack Developer, which means I am well versed with
+            Backend Frontend and Database realted technologies. I believe in TDD approach to development.
           </p>
           <p className="i-5">
-            In my spare time, Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.
+            In my spare time, I explore new tech and spend time on my pet projects. Apart from work I like documenting my travel on 
+            my Youtube channel
           </p>
           <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've
@@ -86,7 +73,7 @@ export default ({ data }) => {
                   like what you <Link to="/resume">see</Link>, let's get
                   in&nbsp;
                   <a
-                    href="mailto:red.five@rebellion.com"
+                    href="mailto:snhthakare@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -106,12 +93,6 @@ export default ({ data }) => {
             Here are a couple of shows from my watch list:
           </h5>
           <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{showLinks}</ul>
-          <h5 className="watch-list-title pt-4">
-            Here are a couple of movies from my watch list:
-          </h5>
-          <p>
-            <i>...waaaay too many to list.</i>
-          </p>
         </article>
       </Container>
     </PageLayout>
