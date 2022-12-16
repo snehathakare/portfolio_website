@@ -5,30 +5,11 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () => (
   <Section>
-    <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I have worked on many technologies from frontend to backend</SectionText>
+    <SectionTitle>What can I do</SectionTitle>
+    <SectionText>Build client-side applications with modern features like SPA using modern tech such as React.Js, Next.js, Typescript and CSS frameworks.</SectionText>
     <List>
-      <ListItem>
-        <ListContainer>
-          <ListTitle>Frontend</ListTitle>
-          <ListParagraph>Experience with <br /></ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <ListContainer>
-          <ListTitle>Backend</ListTitle>
-          <ListParagraph>Experience with <br /></ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <ListContainer>
-          <ListTitle>Tools</ListTitle>
-          <ListParagraph>Experience with <br /></ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List>
 
+    </List>
   </Section>
 );
 

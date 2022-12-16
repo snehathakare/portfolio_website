@@ -10,7 +10,6 @@ const Projects = () => (
       <BlogCard>
         <Img src={project.image} />
         <TitleContent>{project.title}</TitleContent>
-        <CardInfo>{project.description}</CardInfo>
         <TagList>
           {project.tags.map((tag) => (
             <Tag>{tag}</Tag>

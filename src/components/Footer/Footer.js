@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          Innovating one project at a time
+          Lets stay connected on the internet
         </CompanyContainer>
         <SocialIcons>
           <AiFillGithub />

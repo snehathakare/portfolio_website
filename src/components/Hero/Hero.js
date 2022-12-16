@@ -7,11 +7,12 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
   <LeftSection>
     <Section>
-      <SectionTitle>Welcome to <br />My Personal Portfolio</SectionTitle>
-      <SectionText>
-        Frontend Developer. Born in India. Based in Berlin. Fuelled by Chai tea.
-      </SectionText>
-      <Button>Learn more</Button>
+      <SectionTitle>
+        Hello my name is Sneha👋
+      </SectionTitle>
+      <SectionText>I am a Frontend Developer living in Berlin, Germany. I craft solid and scalable frontend applications with great user experience.</SectionText>
+      <SectionText>Got any questions?</SectionText>
+      <Button>Contact me</Button>
     </Section>
   </LeftSection>
 );
