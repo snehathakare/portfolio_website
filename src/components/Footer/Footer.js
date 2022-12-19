@@ -8,21 +8,18 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
+      <LinkColumn>
+          <LinkItem>
+            Let's stay connected
+          </LinkItem>
+        </LinkColumn>
         <LinkColumn>
           <LinkItem>
-            Contact - +491785809728
+            snhthakare@gmail.com
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkItem href="mailto:snhthakare@gmail.com">
-            Email - snhthakare@gmail.com
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          Lets stay connected on the internet
-        </CompanyContainer>
+        <LinkItem>
         <SocialIcons>
           <AiFillGithub />
         </SocialIcons>
@@ -32,7 +29,12 @@ const Footer = () => {
         <SocialIcons>
           <AiFillLinkedin />
         </SocialIcons>
-      </SocialIconsContainer>
+        </LinkItem>
+        </LinkColumn>
+      </LinkList>
+    
+        
+      
     </FooterWrapper>
   );
 };
