@@ -46,8 +46,18 @@ export const TimeLineData = [
 ];
 
 export const data = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { title: 'ReactJs', logo: '/images/react.png' },
+  { title: 'NextJs', logo: '/images/next.png' },
+  { title: 'Typescript', logo: '/images/typescript.png' },
+  { title: 'HTML5', logo: '/images/html.png' },
+  { title: 'CSS3', logo: '/images/css.png' },
+  { title: 'MUI', logo: '/images/tailwind.png' },
+  { title: 'Tailwind', logo: '/images/mui.png' },
 ];
+
+export const articles = [
+  { src: 'https://snhthakare.medium.com/how-can-you-mitigate-carbon-footprint-as-a-developer-14b35e41e97a', text: 'HTML5' },
+  { src: 'https://snhthakare.medium.com/simple-ways-to-connect-your-react-app-to-metamask-fee4f99b3d37', text: 'Next Js', },
+  { src: 'https://snhthakare.medium.com/clean-coding-practices-i-use-in-react-82b6f7f17022', text: 'React Js', },
+  { src: 'https://snhthakare.medium.com/easy-ways-to-deploy-your-react-app-for-free-c75219841486', text: 'something' }
+]
