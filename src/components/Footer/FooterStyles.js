@@ -23,7 +23,7 @@ export const LinkItem = styled.a`
 	position: relative;
 	left: 0;
 	text-align: center;
-
+  
 	&:hover {
 		color: #fff;
 		left: 6px;
@@ -46,9 +46,7 @@ export const LinkItem = styled.a`
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-  padding: 40px 0 28px;
+  	padding: 40px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
@@ -68,13 +66,14 @@ export const LinkList = styled.ul`
 
 export const LinkColumn = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content:center;
 	width: 100%;
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
