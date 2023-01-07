@@ -1,24 +1,30 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionTitle, SectionText } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <GridContainer>
-    {projects && projects.map((project) => (
-      <BlogCard>
-        <Img src={project.image} />
-        <TitleContent>{project.title}</TitleContent>
-        <TagList>
-          {project.tags.map((tag) => (
-            <Tag>{tag}</Tag>
-          ))}
-        </TagList>
-      </BlogCard>
-    ))}
+  <Section id="tech">
+    <SectionTitle>Recent projects</SectionTitle>
+    <GridContainer>
+      {projects && projects.map((project) => (
+        <BlogCard>
+          <Img src={project.image} />
+          <HeaderThree>{project.title}</HeaderThree>
+          <CardInfo>{project.description}</CardInfo>
+          <div>
+            <TagList>
+              {project.tags.map((tag) => (
+                <Tag>{tag}</Tag>
+              ))}
+            </TagList>
+          </div>
 
-  </GridContainer>
+        </BlogCard>
+      ))}
+    </GridContainer>
+  </Section>
 );
 
 export default Projects;
