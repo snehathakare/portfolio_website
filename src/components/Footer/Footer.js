@@ -26,14 +26,14 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkItem>
-            <SocialIcons>
-              <AiFillGithub />
+            <SocialIcons href="https://github.com/snehathakare" target="_blank">
+              <AiFillGithub size="3rem" />
             </SocialIcons>
-            <SocialIcons>
-              <AiFillInstagram />
+            <SocialIcons href="https://www.instagram.com/finding_snehu/" target="_blank">
+              <AiFillInstagram size="3rem" />
             </SocialIcons>
-            <SocialIcons>
-              <AiFillLinkedin />
+            <SocialIcons href="https://www.linkedin.com/in/snehathakare/" target="_blank">
+              <AiFillLinkedin size="3rem" />
             </SocialIcons>
           </LinkItem>
         </LinkColumn>
