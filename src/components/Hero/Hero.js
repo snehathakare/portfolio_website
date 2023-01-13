@@ -1,20 +1,17 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <LeftSection>
     <Section>
       <SectionTitle>
         Hello my name is Sneha👋
       </SectionTitle>
-      <SectionText>I am a Frontend Developer living in Berlin, Germany. I craft solid and scalable frontend applications with great user experience.</SectionText>
-      <SectionText>Got any questions?</SectionText>
-      <Button>Contact me</Button>
+      <SectionText>I am a Frontend Developer living in Berlin, Germany. I craft solid and scalable frontend applications with great user experience.
+        I build client-side applications with modern features like SPA using modern tech such as React.Js, Next.js, Typescript and CSS frameworks.
+      </SectionText>
     </Section>
-  </LeftSection>
 );
 
 export default Hero;
