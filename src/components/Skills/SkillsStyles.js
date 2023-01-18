@@ -65,9 +65,10 @@ export const BoxNum = styled.h5`
 `
 
 export const BoxText = styled.p`
+  text-align: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
@@ -134,6 +135,14 @@ export const IconContainer = styled.div`
 
 export const Image = styled.img`
     border-style: none;
-    height: 50px;
-    border-radius: 20px;
+    height: 72px;
+    border-radius: 12px;
+
+    @media ${props => props.theme.breakpoints.md}{
+      height: 75px;
+    }
+  
+    @media ${props => props.theme.breakpoints.sm}{
+      height: 50px;
+    }
 `

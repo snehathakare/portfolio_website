@@ -1,7 +1,7 @@
 import React from 'react';
 import { skills } from '../../constants/constants'
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
-import { Boxes, Box, Image, BoxNum, BoxText } from './SkillsStyles';
+import { Boxes, Image, BoxText } from './SkillsStyles';
 
 const Skills = () => (
   <Section>
@@ -12,7 +12,7 @@ const Skills = () => (
       {skills.map((item) => (
         <div>
           <Image src={item.logo} />
-          <BoxNum>{item.title}</BoxNum>
+          <BoxText>{item.title}</BoxText>
         </div>
       ))}
     </Boxes>
